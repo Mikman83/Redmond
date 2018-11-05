@@ -85,17 +85,24 @@
   display: none;
 }
 
+.promo__collection {
+  display: flex;
+  flex-direction: column;
+}
+
 .promo__collection-wrap {
-  padding: 5% 8%;
+  padding: 0 8%;
+  order: 2;
 }
 
 .promo__collection-header {
-
+  margin-top: 0;
 }
 
 .promo__collection-btn {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .promo__collection-btn-item {
@@ -131,6 +138,18 @@
   width: 25px;
   height: 14px;
   border-bottom: 2px solid #e5e5e5;
+}
+
+.collection-toggle__item-active {
+  border-bottom: 2px solid #000;
+}
+
+.promo__image {
+  padding: 0 8%;
+}
+
+.promo__image-item {
+  width: 100%;
 }
 
 
