@@ -1,0 +1,154 @@
+
+
+.header-social,
+.header-contacts__phone-desct,
+.header-contacts__email,
+.header-contacts__adress,
+.header-contacts__openig-hours {
+  display: none;
+}
+
+.page-header {
+  padding: 5% 8%;
+}
+
+.page-header__logo {
+  display: inline-block;
+  width: 50%;
+}
+
+.page-header__logo-img {
+  width: 85%;
+}
+
+.header-contacts {
+  display: inline-block;
+  margin-left: 20%;
+  vertical-align: top;
+}
+
+.header-contacts__phone {
+  display: inline-block;
+  background-image: url(../img/tel_logo_mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.page-header__burger {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+
+.page-header__burger-inner,
+.page-header__burger-inner:before,
+.page-header__burger-inner:after {
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  top: 40%;
+}
+
+.page-header__burger-inner:before {
+  content: '';
+  top: -7px;
+  transform: translateY(-4px);
+}
+
+.page-header__burger-inner:after {
+  content: '';
+  top: 8px;
+  transform: translateY(4px);
+}
+
+.page-header__burger-active .page-header__burger-inner:before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.page-header__burger-active .page-header__burger-inner:after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.page-header__burger-active .page-header__burger-inner {
+  width: 0;
+}
+
+.block-desct,
+.romo__image {
+  display: none;
+}
+
+.promo__collection-wrap {
+  padding: 5% 8%;
+}
+
+.promo__collection-header {
+
+}
+
+.promo__collection-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo__collection-btn-item {
+  border: 2px solid #e5e5e5;
+  background-color: #fff;
+  width: 45%;
+  padding: 5% 0;
+}
+
+.collection-toggle {
+  padding: 5% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection-toggle__item-prev {
+  background-image: url(../img/toggle-prev-black.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 14px;
+}
+
+.collection-toggle__item-next {
+  background-image: url(../img/toggle-next-black.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 14px;
+}
+
+.collection-toggle__item {
+  width: 25px;
+  height: 14px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+
+
+
+
+
+
+
+
+.promo__nav {
+  opacity: 0;
+}
+
+.promo__nav-active {
+  opacity: 1;
+}
+
+
+
+

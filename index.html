@@ -5,29 +5,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Redmond</title>
 	<!-- <link rel="icon" href="#" type="img/ico"> -->
+  <link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 	<header class="page-header">
+    <a href="#" class="page-header__logo">
+      <img src="img/Logo.png" alt="Логотип" class="page-header__logo-img">
+    </a>
 		<div class="header-social">
 			<a href="#" class="header-social__fb"></a>
 			<a href="#" class="header-social__vk"></a>
 			<a href="#" class="header-social__insta"></a>
 		</div>
 		<div class="header-contacts">
-			<a href="#" class="header-contacts__phone">+7 (343) 288-77-58</a>
+			<a href="#" class="header-contacts__phone"><span class="header-contacts__phone-desct">+7 (343) 288-77-58</span></a>
 			<a href="#" class="header-contacts__email">info@redmond.com</a>
 			<a href="#" class="header-contacts__adress">г. Екатеринбург</a>
 			<a href="#" class="header-contacts__openig-hours">пн-пт c 9:00 - 17:00</a>
 		</div>
+    <a href="#" class="page-header__burger">
+      <span class="page-header__burger-inner"></span>
+    </a>
 	</header>
 
 	<body>
 
 		<section class="promo">
 
-			<div class="row">
+			<div class="row block-desct">
 				<a href="#" class="promo__logo">
 					<img src="" alt="Логотип" class="promo__logo-img">
 				</a>
@@ -338,6 +345,9 @@
 
   </footer>
 
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
 
