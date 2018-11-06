@@ -193,6 +193,30 @@
   font-size: 20px;
 }
 
+.catalog-man__collection {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-man__collection-image {
+  padding: 0 8%;
+}
+
+.catalog-man__collection-image-item {
+  width: 100%;
+}
+
+.catalog-man__collection-wrap {
+  padding: 0 8%;
+}
+
+.catalog-man__collection-btn-item {
+  border: 2px solid #e5e5e5;
+  background-color: #fff;
+  width: 100%;
+  padding: 5% 0;
+}
+
 
 
 
