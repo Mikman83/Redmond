@@ -1,0 +1,78 @@
+
+@media (min-width: 600px) {
+
+   .page-header__logo,
+   .page-header__burger {
+    display: none;
+   }
+
+   .header-social,
+   .header-contacts__phone-desct,
+   .header-contacts__email,
+   .header-contacts__adress,
+   .header-contacts__openig-hours {
+    display: block;
+   }
+
+   .page-header {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .header-social {
+    width: 30%;
+   }
+
+   .header-social__fb,
+   .header-social__vk,
+   .header-social__insta {
+    display: inline-block;
+    margin-right: 30px;
+   }
+
+   .header-social__fb {
+    background-image: url(../img/header-social__fb.png);
+    width: 7px;
+    height: 13px;
+   }
+
+   .header-social__vk {
+    background-image: url(../img/header-social__vk.png);
+    width: 14px;
+    height: 8px;
+   }
+
+   .header-social__insta {
+    background-image: url(../img/header-social__insta.png);
+    width: 12px;
+    height: 12px;
+   }
+
+   .header-contacts {
+    width: 70%;
+   }
+
+   .header-contacts__phone {
+    display: inline-block;
+    width: 25%;
+   }
+
+   .header-contacts__email {
+    display: inline-block;
+    width: 25%;
+   }
+
+   .header-contacts__adress {
+    display: inline-block;
+    width: 25%;
+   }
+
+   .header-contacts__openig-hours {
+    display: inline-block;
+    width: 25%;
+   }
+
+
+
+
+}
