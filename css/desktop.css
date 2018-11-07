@@ -10,13 +10,16 @@
    .header-contacts__phone-desct,
    .header-contacts__email,
    .header-contacts__adress,
-   .header-contacts__openig-hours {
+   .header-contacts__openig-hours,
+   .block-desct {
     display: block;
    }
 
    .page-header {
     display: flex;
     flex-direction: row;
+    padding: 2% 3%;
+    border-bottom: 1px solid #e5e5e5;
    }
 
    .header-social {
@@ -49,28 +52,106 @@
    }
 
    .header-contacts {
+    display: flex;
     width: 70%;
+    margin: 0;
    }
 
-   .header-contacts__phone {
-    display: inline-block;
-    width: 25%;
-   }
-
-   .header-contacts__email {
-    display: inline-block;
-    width: 25%;
-   }
-
-   .header-contacts__adress {
-    display: inline-block;
-    width: 25%;
-   }
-
+   .header-contacts__phone,
+   .header-contacts__email,
+   .header-contacts__adress,
    .header-contacts__openig-hours {
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    background-image: none;
     width: 25%;
+    text-decoration: none;
+    color: #000;
    }
+
+   .header-contacts__phone-desct {
+    display: inline-block;
+    align-self: center;
+    font-size: 14px;
+   }
+
+   .header-contacts__phone-icon {
+    display: inline-block;
+    background-image: url(../img/header-contacts__phone-desct.png);
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+   }
+
+   .header-contacts__email-icon {
+    display: inline-block;
+    background-image: url(../img/header-contacts__email.png);
+    width: 13px;
+    height: 8px;
+    margin: 5px;
+   }
+
+   .header-contacts__adress-icon {
+    display: inline-block;
+    background-image: url(../img/header-contacts__adress.png);
+    width: 9px;
+    height: 12px;
+    margin: 2px;
+   }
+
+   .header-contacts__openig-hours-icon {
+    display: inline-block;
+    background-image: url(../img/header-contacts__openig-hours.png);
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+   }
+
+   .promo {
+    padding: 3%;
+   }
+
+   .block-desct {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .promo__wrap {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .promo__order {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    text-decoration: none;
+   }
+
+   .promo__order-amount {
+    font-size: 16px;
+   }
+
+   .promo__order-img {
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+   }
+
+   .promo__search {
+    display: flex;
+    align-items: center;
+    width: 16px;
+    margin-left: 40px;
+   }
+
+   .promo__search-img {
+    width: 16px;
+    height: 16px;
+   }
+
+
 
 
 
