@@ -15,6 +15,14 @@
     display: block;
    }
 
+   .collection-toggle__item-prev:hover {
+    background-image: url(../img/toggle-prev-yellow.png);
+   }
+
+   .collection-toggle__item-next:hover {
+    background-image: url(../img/toggle-next-yellow.png);
+   }
+
    .page-header {
     display: flex;
     flex-direction: row;
@@ -298,6 +306,72 @@
 
   .catalog-women__collection-btn {
     padding: 10% 0% 57%;
+  }
+
+  .discount {
+    padding: 0% 3%;
+  }
+
+  .discount__header {
+    text-align: center;
+  }
+
+  .discount__catalog {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .discount__catalog-btn {
+    border: 2px solid #e5e5e5;
+    border-right: none;
+    padding: 1% 3%;
+  }
+
+  .discount__catalog-btn:hover {
+    background-color: rgba(229, 229, 229, 0.3);
+  }
+
+  .discount__catalog-btn-active {
+    background-color: #c1b6a5;
+  }
+
+  .discount__slider {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .discount__slider-card {
+    width: 31.25%;
+  }
+
+  .slider-card-inner__favorite:hover {
+    background-image: url(../img/slider-card-inner__favorite-hover.png);
+  }
+
+  .slider-card-inner__img1:hover ~ .slider-card-inner__color,
+  .slider-card-inner__img2:hover ~ .slider-card-inner__color,
+  .slider-card-inner__img3:hover ~ .slider-card-inner__color {
+    display: block;
+  }
+
+  .slider-card-inner__img1:hover ~ .slider-card-inner__btn,
+  .slider-card-inner__img2:hover ~ .slider-card-inner__btn,
+  .slider-card-inner__img3:hover ~ .slider-card-inner__btn {
+    display: block;
+  }
+
+  .slider-card-inner__color:hover,
+  .slider-card-inner__btn:hover {
+    display: block;
+  }
+
+  .slider-card-inner__color {
+    display: none;
+  }
+
+  .slider-card-inner__btn {
+    display: none;
   }
 
 
