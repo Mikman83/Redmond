@@ -1,5 +1,5 @@
 
-@media (min-width: 600px) {
+@media (min-width: 641px) {
 
    .page-header__logo,
    .page-header__burger {
@@ -131,6 +131,7 @@
 
    .promo__order-amount {
     font-size: 16px;
+    color: #000;
    }
 
    .promo__order-img {

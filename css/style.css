@@ -300,9 +300,14 @@
 
 .discount__catalog-btn {
   border: 2px solid #e5e5e5;
+  border-bottom: none;
   background-color: #fff;
   width: 100%;
   padding: 5% 10%;
+}
+
+.discount__catalog-btn:last-child {
+  border: 2px solid #e5e5e5;
 }
 
 .discount__slider {
