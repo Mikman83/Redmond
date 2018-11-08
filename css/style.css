@@ -85,7 +85,7 @@
   width: 0;
 }
 
-.block-desct {
+.block1-desct {
   display: none;
 }
 
@@ -154,9 +154,6 @@
 
 .promo__image-item {
   width: 100%;
-}
-
-.promo__navigation {
 }
 
 .promo__nav {
