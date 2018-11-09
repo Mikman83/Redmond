@@ -438,6 +438,57 @@
     width: auto;
   }
 
+  .page-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 3%;
+  }
+
+  .page-footer-container {
+    padding: 0;
+  }
+
+  .page-footer-item1,
+  .page-footer-item2,
+  .page-footer-item3,
+  .page-footer-item4 {
+    width: 25%;
+    display: block;
+  }
+
+  .page-footer-item2 {
+    padding-left: 80px;
+  }
+
+  .page-footer-item3,
+  .page-footer-item4 {
+    padding-left: 160px;
+  }
+
+  .page-footer__logo img {
+    width: 50%;
+  }
+
+  .page-footer__catalog,
+  .page-footer__about,
+  .page-footer__contacts {
+    list-style: none;
+  }
+
+  .page-footer__catalog-item-header,
+  .page-footer__catalog-item,
+  .page-footer__about-item,
+  .page-footer__contacts-item {
+    margin-bottom: 5px;
+
+  }
+
+  .page-footer__catalog-item-link,
+  .page-footer__about-item-link,
+  .page-footer__contacts-item-link {
+    text-decoration: none;
+    color: #000;
+  }
 
 
 
