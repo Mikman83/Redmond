@@ -417,6 +417,7 @@
 
   .about__image {
     display: flex;
+    /*overflow-y: hidden;*/
   }
 
   .about__image-item1 {

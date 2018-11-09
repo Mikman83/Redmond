@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
 
 
 .header-social,
@@ -100,6 +113,9 @@
 }
 
 .promo__collection-header {
+  font-family: 'Montserrat Bold', sans-serif;
+  font-size: 48px;
+  width: 70%;
   margin-top: 0;
 }
 
@@ -110,10 +126,38 @@
 }
 
 .promo__collection-btn-item {
+  font-family: 'Montserrat Bold', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
   border: 2px solid #e5e5e5;
   background-color: #fff;
   width: 45%;
   padding: 5% 0;
+}
+
+.catalog-man__collection-header,
+.catalog-road-bag__header,
+.catalog-accessories__header,
+.catalog-women__collection-header {
+  font-family: 'Montserrat Bold', sans-serif;
+  font-size: 40px;
+}
+
+.catalog-man__collection-descr,
+.catalog-road-bag__decr,
+.catalog-accessories__decr,
+.catalog-women__collection-descr {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.catalog-man__collection-btn-item,
+.catalog-road-bag__link,
+.catalog-accessories__link,
+.catalog-women__collection-btn-item {
+  font-family: 'Montserrat Bold', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .collection-toggle {
@@ -291,11 +335,20 @@
   padding: 0 8%;
 }
 
+.discount__header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
 .discount__catalog {
   padding: 0 15%;
 }
 
 .discount__catalog-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   border: 2px solid #e5e5e5;
   border-bottom: none;
   background-color: #fff;
@@ -393,19 +446,79 @@
 }
 
 .slider-card-inner__btn span {
+  font-family: 'Monserrat Bold', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
   color: #fff;
 }
 
 .slider-card-inner__btn-icon {
-  margin-left: 85px;
+  margin-left: 80px;
+}
+
+.discount__slider-descr {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 16px;
+}
+
+.discount__slider-price {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 28px;
+}
+
+.discount__slider-comment {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 12px;
+  color: #ba8a3b;
 }
 
 .blog {
-  padding: 0 8%;
+  padding: 30px 8%;
+}
+
+.blog__header,
+.about__header {
+  font-family: 'Monserrat Bold', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.blog__descr-title,
+.about__descr-title {
+  font-family: 'Monserrat Bold', sans-serif;
+  font-size: 42px;
+}
+
+.blog__descr-text,
+.about__descr-text {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
 }
 
 .blog__list-item-img {
   width: 100%;
+}
+
+.blog__list-item-time {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.blog__list-item-header {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 1.44px;
+}
+
+.blog__list-item-text {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
 }
 
 .about-wrap {
