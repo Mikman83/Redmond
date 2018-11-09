@@ -115,6 +115,7 @@
 .promo__collection-header {
   font-family: 'Montserrat Bold', sans-serif;
   font-size: 48px;
+  letter-spacing: 2.56px;
   width: 70%;
   margin-top: 0;
 }
@@ -129,6 +130,7 @@
   font-family: 'Montserrat Bold', sans-serif;
   font-size: 16px;
   font-weight: bold;
+  letter-spacing: 0.8px;
   border: 2px solid #e5e5e5;
   background-color: #fff;
   width: 45%;
@@ -141,6 +143,7 @@
 .catalog-women__collection-header {
   font-family: 'Montserrat Bold', sans-serif;
   font-size: 40px;
+  letter-spacing: 1.92px;
 }
 
 .catalog-man__collection-descr,
@@ -149,6 +152,7 @@
 .catalog-women__collection-descr {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  letter-spacing: 0.8px;
 }
 
 .catalog-man__collection-btn-item,
@@ -158,6 +162,7 @@
   font-family: 'Montserrat Bold', sans-serif;
   font-size: 16px;
   font-weight: bold;
+  letter-spacing: 0.8px;
 }
 
 .collection-toggle {
@@ -339,6 +344,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   font-weight: normal;
+  letter-spacing: 1.44px;
   text-align: center;
 }
 
@@ -351,6 +357,7 @@
   font-size: 16px;
   border: 2px solid #e5e5e5;
   border-bottom: none;
+  letter-spacing: 0.8px;
   background-color: #fff;
   width: 100%;
   padding: 5% 10%;
@@ -449,6 +456,7 @@
   font-family: 'Monserrat Bold', sans-serif;
   font-size: 16px;
   font-weight: bold;
+  letter-spacing: 0.8px;
   color: #fff;
 }
 
@@ -459,16 +467,19 @@
 .discount__slider-descr {
   font-family: 'Monserrat', sans-serif;
   font-size: 16px;
+  letter-spacing: 0.8px;
 }
 
 .discount__slider-price {
   font-family: 'Monserrat', sans-serif;
   font-size: 28px;
+  letter-spacing: 1.44px;
 }
 
 .discount__slider-comment {
   font-family: 'Monserrat', sans-serif;
   font-size: 12px;
+  letter-spacing: 0.64px;
   color: #ba8a3b;
 }
 
@@ -481,6 +492,7 @@
   font-family: 'Monserrat Bold', sans-serif;
   font-size: 16px;
   font-weight: bold;
+  letter-spacing: 0.8px;
   text-transform: uppercase;
 }
 
@@ -488,6 +500,7 @@
 .about__descr-title {
   font-family: 'Monserrat Bold', sans-serif;
   font-size: 42px;
+  letter-spacing: 2.56px;
 }
 
 .blog__descr-text,
@@ -505,6 +518,7 @@
 .blog__list-item-time {
   font-family: 'Monserrat', sans-serif;
   font-size: 12px;
+  letter-spacing: 0.64px;
   color: #b3b3b3;
 }
 
@@ -574,3 +588,10 @@
   width: 19px;
   height: 35px;
 }
+
+.page-footer__copyright {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
