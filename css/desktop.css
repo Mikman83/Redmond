@@ -417,26 +417,34 @@
 
   .about__image {
     display: flex;
-    /*overflow-y: hidden;*/
+    align-items: stretch;
+    height: 466px;
   }
 
   .about__image-item1 {
+    flex-grow: 3;
     display: block;
-    width: 46.85%;
+    overflow: hidden;
+    flex-basis: 46.85%;
   }
 
   .about__image-item2 {
+    flex-grow: 1;
     display: block;
-    width: 24.01%;
+    overflow: hidden;
+    flex-basis: 24.01%;
   }
 
   .about__image-item3 {
+    flex-grow: 1;
     display: block;
-    width: 29.14%;
+    overflow: hidden;
+    flex-basis: 29.14%;
   }
 
   .about__image-picture-item {
-    width: auto;
+    min-width: 100%;
+    min-height: 100%
   }
 
   .page-footer {
