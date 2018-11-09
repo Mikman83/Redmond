@@ -531,7 +531,7 @@
 }
 
 .about__image-picture-item {
-  width: 100%;
+  min-width: 100%;
 }
 
 .page-footer {margin: 30px auto;}
