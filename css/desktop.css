@@ -81,7 +81,9 @@
    .header-contacts__phone-desct {
     display: inline-block;
     align-self: center;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    letter-spacing: 0.56px;
    }
 
    .header-contacts__phone-icon {
@@ -180,7 +182,15 @@
    }
 
    .promo__collection-header {
+    font-size: 64px;
+    letter-spacing: 2.56px;
+    line-height: 74px;
     margin-bottom: 30px;
+   }
+
+   .promo__collection-btn-item {
+    font-size: 20px;
+    letter-spacing: 0.8px;
    }
 
    .promo__image {
@@ -189,7 +199,7 @@
 
    .promo__navigation {
     width: 33.4%;
-    padding: 10% 0;
+    padding: 8% 0;
    }
 
    .promo__nav {
@@ -205,7 +215,18 @@
    }
 
    .promo__nav-item--strong {
-    margin-bottom: 20px;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 58px;
+    letter-spacing: 1.6px;
+   }
+
+   .promo__nav-item--normal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.8px;
    }
 
    .catalog {
@@ -239,6 +260,16 @@
     position: relative;
     width: 50%;
     padding: 10% 7% 0 7%;
+   }
+
+   .catalog-man__collection-header,
+   .catalog-road-bag__header,
+   .catalog-accessories__header,
+   .catalog-women__collection-header {
+     font-family: 'Montserrat Bold', sans-serif;
+     font-size: 48px;
+     line-height: 58px;
+     letter-spacing: 1.92px;
    }
 
    .catalog-man__collection-btn {
