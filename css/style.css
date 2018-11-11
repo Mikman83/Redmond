@@ -102,9 +102,14 @@
   display: none;
 }
 
+.promo {
+  margin-top: 70px;
+}
+
 .promo__collection {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .promo__collection-wrap {
@@ -114,15 +119,16 @@
 
 .promo__collection-header {
   font-family: 'Montserrat Bold', sans-serif;
-  font-size: 48px;
-  letter-spacing: 2.56px;
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: 1.76px;
   width: 70%;
   margin-top: 0;
 }
 
 .promo__collection-btn {
   display: flex;
-  justify-content: space-between;
+  margin-top: 90%;
   margin-bottom: 25px;
 }
 
@@ -135,6 +141,11 @@
   background-color: #fff;
   width: 45%;
   padding: 5% 0;
+  flex-grow: 1;
+}
+
+.promo__collection-btn-item:first-child {
+  border-right: none;
 }
 
 .catalog-man__collection-header,
@@ -142,8 +153,9 @@
 .catalog-accessories__header,
 .catalog-women__collection-header {
   font-family: 'Montserrat Bold', sans-serif;
-  font-size: 40px;
-  letter-spacing: 1.92px;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 1.44px;
 }
 
 .catalog-man__collection-descr,
@@ -151,8 +163,14 @@
 .catalog-accessories__decr,
 .catalog-women__collection-descr {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  letter-spacing: 0.8px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.72px;
+}
+
+.catalog-road-bag__decr,
+.catalog-accessories__decr {
+  display: none;
 }
 
 .catalog-man__collection-btn-item,
@@ -162,7 +180,7 @@
   font-family: 'Montserrat Bold', sans-serif;
   font-size: 16px;
   font-weight: bold;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.64px;
 }
 
 .collection-toggle {
@@ -171,8 +189,13 @@
   justify-content: space-between;
 }
 
+.catalog-man__collection-toggle,
+.catalog-women__collection-toggle {
+  display: none;
+}
+
 .collection-toggle__item-prev {
-  background-image: url(../img/toggle-prev-black.png);
+  background-image: url(../img/toggle-prev-black.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 10px;
@@ -180,7 +203,7 @@
 }
 
 .collection-toggle__item-next {
-  background-image: url(../img/toggle-next-black.png);
+  background-image: url(../img/toggle-next-black.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 10px;
@@ -198,7 +221,9 @@
 }
 
 .promo__image {
+  position: absolute;
   padding: 0 8%;
+  top: 110px;
 }
 
 .promo__image-item {
@@ -242,15 +267,24 @@
 }
 
 .catalog {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
+}
+
+.catalog-man {
+  order: 1;
 }
 
 .catalog-man__collection {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .catalog-man__collection-image {
+  position: absolute;
+  top: 185px;
   padding: 0 8%;
 }
 
@@ -260,6 +294,11 @@
 
 .catalog-man__collection-wrap {
   padding: 0 8%;
+}
+
+.catalog-man__collection-btn {
+  margin-top: 90%;
+  padding-top: 10%;
 }
 
 .catalog-man__collection-btn-item {
@@ -272,23 +311,27 @@
 
 .catalog-man__collection-btn-arrow {
   display: inline-block;
-  background-image: url(../img/catalog-man__collection-btn-arrow.png);
+  background-image: url(../img/catalog-man__collection-btn-arrow.svg);
   width: 20px;
   height: 8px;
   margin-left: 20%;
 }
 
 .catalog-road-bag {
+  order: 3;
   padding: 0 8%;
+  margin-top: 30px;
 }
 
 .catalog-road-bag__img {
   width: 100%;
 }
 
-.catalog-road-bag-inner {
+.catalog-road-bag-inner,
+.catalog-accessories-inner {
   display: flex;
   justify-content: space-around;
+  margin: 30px 0;
 }
 
 .catalog-road-bag__link {
@@ -296,16 +339,13 @@
 }
 
 .catalog-accessories {
+  order: 4;
   padding: 0 8%;
+  margin-top: 30px;
 }
 
 .catalog-accessories__img {
   width: 100%;
-}
-
-.catalog-accessories-inner {
-  display: flex;
-  justify-content: space-around;
 }
 
 .catalog-accessories__link {
@@ -313,12 +353,29 @@
 }
 
 .catalog-women {
+  order: 2;
   padding: 0 8%;
   margin-top: 30px;
 }
 
+.catalog-women__collection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.catalog-women__collection-image {
+  position: absolute;
+  top: 225px;
+}
+
 .catalog-women__collection-image-item {
   width: 100%;
+}
+
+.catalog-women__collection-btn {
+  margin-top: 100%;
+  padding-top: 15%;
 }
 
 .catalog-women__collection-btn-item {
@@ -330,7 +387,7 @@
 
 .catalog-women__collection-btn-arrow {
   display: inline-block;
-  background-image: url(../img/catalog-man__collection-btn-arrow.png);
+  background-image: url(../img/catalog-man__collection-btn-arrow.svg);
   width: 20px;
   height: 8px;
   margin-left: 20%;
@@ -427,7 +484,7 @@
 }
 
 .slider-card-inner__favorite {
-  background-image: url(../img/slider-card-favourite.png);
+  background-image: url(../img/slider-card-favourite.svg);
   background-size: cover;
   width: 30px;
   height: 26px;
@@ -439,7 +496,7 @@
 }
 
 .slider-card-inner__favorite--active {
-  background-image: url(../img/slider-card-inner__favorite--active.png);
+  background-image: url(../img/slider-card-inner__favorite--active.svg);
 }
 
 .slider-card-inner__btn {
@@ -572,19 +629,19 @@
 }
 
 .page-footer__socials-vk {
-  background-image: url(../img/page-footer__socials-vk.png);
+  background-image: url(../img/page-footer__socials-vk.svg);
   width: 42px;
   height: 24px;
 }
 
 .page-footer__socials-insta {
-  background-image: url(../img/page-footer__socials-insta.png);
+  background-image: url(../img/page-footer__socials-insta.svg);
   width: 31px;
   height: 31px;
 }
 
 .page-footer__socials-fb {
-  background-image: url(../img/page-footer__socials-fb.png);
+  background-image: url(../img/page-footer__socials-fb.svg);
   width: 19px;
   height: 35px;
 }
