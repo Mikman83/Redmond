@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="26" viewBox="0 0 30 26"><defs><path id="b1uka" d="M1310 2183v-26h30v26z"/></defs><g><g transform="translate(-1310 -2157)"><use fill="#e5b194" xlink:href="#b1uka"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="226px" viewBox="0 0 230 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>like active</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.5947047,25.3871854 C13.9674134,25.7501144 14.4684318,25.9524027 14.99389,25.9524027 C15.5132383,25.9524027 16.0264766,25.7441648 16.3930754,25.3871854 L27.3727088,14.6956522 C29.0407332,13.0713959 29.9572301,10.9116705 29.9633401,8.62105263 C29.9633401,6.32448513 29.0468432,4.16475973 27.3788187,2.54050343 C25.7107943,0.91624714 23.4989817,0.023798627 21.1405295,0.023798627 C18.8248473,0.023798627 16.6435845,0.886498856 14.98778,2.45720824 C13.3258656,0.880549199 11.1384929,0.0118993135 8.81670061,0.0118993135 C6.46435845,0.0118993135 4.25254582,0.904347826 2.58452138,2.52265446 C0.916496945,4.14691076 0,6.30663616 0,8.60320366 C0,10.8938215 0.922606925,13.0535469 2.59063136,14.6778032 L13.5947047,25.3871854 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Page" transform="translate(-1210.000000, -2057.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4870"></rect>
+            <g id="Icon/ike_hover" transform="translate(1310.000000, 2157.000000)">
+                <g id="skin">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#E5B194" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="color/skin" mask="url(#mask-2)" fill="#E5B194" fill-rule="nonzero">
+                        <rect id="skin" x="0" y="0" width="30" height="26"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -395,13 +395,14 @@
 
 .discount {
   padding: 0 8%;
+  margin-top: 30px;
 }
 
 .discount__header {
   font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: normal;
-  letter-spacing: 1.44px;
+  letter-spacing: 1.2px;
   text-align: center;
 }
 
@@ -414,7 +415,7 @@
   font-size: 16px;
   border: 2px solid #e5e5e5;
   border-bottom: none;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.64px;
   background-color: #fff;
   width: 100%;
   padding: 5% 10%;
@@ -424,8 +425,17 @@
   border: 2px solid #e5e5e5;
 }
 
+.discount__catalog-btn-active {
+  background-color: #c1b6a5;
+}
+
 .discount__slider {
   margin-top: 30px;
+}
+
+.slider-card2,
+.slider-card3 {
+  display: none;
 }
 
 .slider-card-inner {
@@ -511,8 +521,9 @@
 
 .slider-card-inner__btn span {
   font-family: 'Monserrat Bold', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
+  line-height: 30px;
   letter-spacing: 0.8px;
   color: #fff;
 }
@@ -520,48 +531,57 @@
 .discount__slider-descr {
   font-family: 'Monserrat', sans-serif;
   font-size: 16px;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.64px;
 }
 
 .discount__slider-price {
   font-family: 'Monserrat', sans-serif;
-  font-size: 28px;
-  letter-spacing: 1.44px;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  line-height: 46px;
 }
 
 .discount__slider-comment {
   font-family: 'Monserrat', sans-serif;
   font-size: 12px;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.48px;
+  line-height: 26px;
   color: #ba8a3b;
 }
 
 .blog {
-  padding: 30px 8%;
+  padding: 60px 8%;
 }
 
 .blog__header,
 .about__header {
   font-family: 'Monserrat Bold', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.72px;
+  line-height: 30px;
   text-transform: uppercase;
 }
 
 .blog__descr-title,
 .about__descr-title {
   font-family: 'Monserrat Bold', sans-serif;
-  font-size: 42px;
-  letter-spacing: 2.56px;
+  font-size: 36px;
+  letter-spacing: 1.44px;
+  line-height: 48px;
 }
 
 .blog__descr-text,
 .about__descr-text {
   font-family: 'Monserrat', sans-serif;
   font-size: 16px;
+  letter-spacing: 0.64px;
   line-height: 24px;
-  letter-spacing: 0.8px;
+}
+
+.blog__list-item:nth-child(2),
+.blog__list-item:nth-child(3) {
+  display: none;
 }
 
 .blog__list-item-img {
@@ -571,21 +591,23 @@
 .blog__list-item-time {
   font-family: 'Monserrat', sans-serif;
   font-size: 12px;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.48px;
+  line-height: 26px;
   color: #b3b3b3;
 }
 
 .blog__list-item-header {
   font-family: 'Monserrat', sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: normal;
-  letter-spacing: 1.44px;
+  letter-spacing: 1.2px;
+  line-height: 40px;
 }
 
 .blog__list-item-text {
   font-family: 'Monserrat', sans-serif;
   font-size: 16px;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.64px;
 }
 
 .about-wrap {
@@ -607,6 +629,12 @@
 
 .page-footer {margin: 30px auto;}
 
+.page-footer-item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .page-footer-item2,
 .page-footer-item3,
 .page-footer-item4 {display: none;}
@@ -615,17 +643,18 @@
 
 .page-footer__logo {
   display: block;
+  margin: 0 auto;
 }
 
 .page-footer__socials {
-  margin: 25px 0;
+  margin: 25px auto;
 }
 
 .page-footer__socials-vk,
 .page-footer__socials-insta,
 .page-footer__socials-fb {
   display: inline-block;
-  margin-right: 30px;
+  margin: 0 15px;
 }
 
 .page-footer__socials-vk {
@@ -650,5 +679,6 @@
   font-family: 'Monserrat', sans-serif;
   font-size: 16px;
   letter-spacing: 0.8px;
+  margin: 0 auto;
 }
 

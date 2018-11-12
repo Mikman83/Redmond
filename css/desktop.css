@@ -243,6 +243,7 @@
 
    .catalog {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 0 3%;
     margin: 0;
@@ -250,6 +251,7 @@
 
    .catalog-man,
    .catalog-women {
+    order: 0;
     width: 66.6%;
    }
 
@@ -257,55 +259,59 @@
    .catalog-women__collection {
     display: flex;
     flex-direction: row;
+    position: static;
    }
 
    .catalog-man__collection-image {
     width: 50%;
     padding: 0;
+    position: static;
    }
 
    .catalog-man__collection-image-item {
-    padding: 8% 0;
+    padding: 20% 0;
    }
 
    .catalog-man__collection-wrap {
     position: relative;
     width: 50%;
-    padding: 10% 7% 0 7%;
+    padding: 10% 7% 10% 7%;
    }
 
    .catalog-man__collection-header,
    .catalog-road-bag__header,
    .catalog-accessories__header,
    .catalog-women__collection-header {
-     font-family: 'Montserrat Bold', sans-serif;
-     font-size: 48px;
-     line-height: 58px;
-     letter-spacing: 1.92px;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 1.92px;
    }
 
    .catalog-man__collection-descr,
    .catalog-road-bag__decr,
    .catalog-accessories__decr,
    .catalog-women__collection-descr {
-     font-family: 'Montserrat', sans-serif;
-     font-size: 20px;
-     line-height: 30px;
-     letter-spacing: 0.8px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.8px;
    }
 
    .catalog-man__collection-btn-item,
    .catalog-road-bag__link,
    .catalog-accessories__link,
    .catalog-women__collection-btn-item {
-     font-family: 'Montserrat Bold', sans-serif;
-     font-size: 20px;
-     font-weight: bold;
-     letter-spacing: 0.8px;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
    }
 
    .catalog-man__collection-btn {
     padding: 10% 0 60%;
+    margin-top: 0;
    }
 
    .catalog-man__collection-btn-arrow {
@@ -316,6 +322,7 @@
    .catalog-road-bag__collection-toggle,
    .catalog-accessories__collection-toggle,
    .catalog-women__collection-toggle {
+    display: inline-flex;
     position: absolute;
     bottom: 0;
     left: 15%;
@@ -327,6 +334,8 @@
     position: relative;
     width: 33.4%;
     padding: 0% 4%;
+    margin: 0;
+    order: 0;
    }
 
    .catalog-road-bag__header,
@@ -351,16 +360,13 @@
     width: 50%;
   }
 
+  .catalog-women__collection-image {
+    position: static;
+  }
+
   .catalog-women__collection-wrap {
     position: relative;
-  }
-
-  .catalog-women__collection-image-item {
-    padding: 10% 0;
-  }
-
-  .catalog-women__collection-wrap {
-    padding: 10% 7% 0% 7%;
+    padding: 10% 7%;
   }
 
   .catalog-women__collection-btn-arrow {
@@ -368,12 +374,13 @@
   }
 
   .catalog-women__collection-btn {
-    padding: 10% 0% 57%;
+    padding: 10% 0% 30%;
+    margin: 0;
   }
 
   .discount {
     padding: 0% 3%;
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .discount__header {
@@ -400,10 +407,6 @@
     background-color: rgba(229, 229, 229, 0.3);
   }
 
-  .discount__catalog-btn-active {
-    background-color: #c1b6a5;
-  }
-
   .discount__slider {
     display: flex;
     justify-content: space-between;
@@ -411,6 +414,11 @@
 
   .discount__slider-card {
     width: 31.25%;
+  }
+
+  .slider-card2,
+  .slider-card3 {
+    display: block;
   }
 
   .slider-card-inner__favorite:hover {
@@ -499,6 +507,11 @@
 
   .blog__list-item {
     width: 31.25%;
+  }
+
+  .blog__list-item:nth-child(2),
+  .blog__list-item:nth-child(3) {
+    display: block;
   }
 
   .blog__list-item-time {
@@ -590,6 +603,17 @@
 
   .page-footer__logo img {
     width: 50%;
+    margin: 0;
+  }
+
+  .page-footer__socials {
+    margin: 25px 0;
+  }
+
+  .page-footer__socials-vk,
+  .page-footer__socials-insta,
+  .page-footer__socials-fb {
+    margin: 0 30px 0 0;
   }
 
   .page-footer__catalog,
