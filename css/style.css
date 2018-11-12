@@ -282,6 +282,7 @@
 }
 
 .catalog-man {
+  background-color: #f7f8fa;
   order: 1;
 }
 
@@ -362,6 +363,7 @@
 }
 
 .catalog-women {
+  background-color: #f8f8f8;
   order: 2;
   padding: 0 8%;
   margin-top: 30px;
@@ -595,6 +597,7 @@
 
 .blog__list-item-img {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .blog__list-item-time {
@@ -778,38 +781,65 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     letter-spacing: 0.56px;
+    line-height: 26px;
    }
 
    .header-contacts__phone-icon {
     display: inline-block;
+    align-self: center;
     background-image: url(../img/header-contacts__phone-desct.svg);
     width: 12px;
     height: 12px;
-    margin: 5px;
+    margin-right: 9px;
+    margin-bottom: 4px;
    }
 
    .header-contacts__email-icon {
     display: inline-block;
+    align-self: center;
     background-image: url(../img/header-contacts__email.svg);
     width: 13px;
     height: 8px;
-    margin: 5px;
+    margin-right: 9px;
+   }
+
+   .header-contacts__email {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    line-height: 26px;
    }
 
    .header-contacts__adress-icon {
     display: inline-block;
+    align-self: center;
     background-image: url(../img/header-contacts__adress.svg);
     width: 9px;
     height: 12px;
-    margin: 2px;
+    margin-right: 9px;
+   }
+
+   .header-contacts__adress {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    line-height: 26px;
    }
 
    .header-contacts__openig-hours-icon {
     display: inline-block;
+    align-self: center;
     background-image: url(../img/header-contacts__openig-hours.svg);
     width: 12px;
     height: 12px;
-    margin: 2px;
+    margin-right: 9px;
+   }
+
+   .header-contacts__openig-hours {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    line-height: 26px;
    }
 
    .promo {
