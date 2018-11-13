@@ -174,9 +174,16 @@
 }
 
 .catalog-man__collection-btn-item,
+.catalog-women__collection-btn-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog-man__collection-btn-text,
 .catalog-road-bag__link,
 .catalog-accessories__link,
-.catalog-women__collection-btn-item {
+.catalog-women__collection-btn-text {
   font-family: 'Montserrat Bold', sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -211,8 +218,10 @@
 }
 
 .collection-toggle__item {
+  display: inline-block;
   width: 25px;
   height: 14px;
+  margin: 0 10px;
   border-bottom: 2px solid #e5e5e5;
 }
 
@@ -282,7 +291,6 @@
 }
 
 .catalog-man {
-  background-color: #f7f8fa;
   order: 1;
 }
 
@@ -294,7 +302,7 @@
 
 .catalog-man__collection-image {
   position: absolute;
-  top: 185px;
+  top: 200px;
   padding: 0 8%;
 }
 
@@ -307,13 +315,13 @@
 }
 
 .catalog-man__collection-btn {
-  margin-top: 90%;
+  margin-top: 95%;
   padding-top: 10%;
 }
 
 .catalog-man__collection-btn-item {
   border: 2px solid #e5e5e5;
-  background-color: #f7f8fa;
+  background-color: #fff;
   width: 100%;
   padding: 5% 10%;
 }
@@ -366,7 +374,6 @@
 }
 
 .catalog-women {
-  background-color: #f8f8f8;
   order: 2;
   padding: 0 8%;
   margin-top: 30px;
@@ -380,7 +387,7 @@
 
 .catalog-women__collection-image {
   position: absolute;
-  top: 225px;
+  top: 240px;
 }
 
 .catalog-women__collection-image-item {
@@ -394,7 +401,7 @@
 
 .catalog-women__collection-btn-item {
   border: 2px solid #e5e5e5;
-  background-color: #f7f8fa;
+  background-color: #fff;
   width: 100%;
   padding: 5% 10%;
 }
@@ -538,7 +545,7 @@
 }
 
 .slider-card-inner__btn span {
-  font-family: 'Monserrat Bold', sans-serif;
+  font-family: 'Montserrat Bold', sans-serif;
   font-size: 20px;
   font-weight: bold;
   line-height: 30px;
@@ -547,20 +554,20 @@
 }
 
 .discount__slider-descr {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   letter-spacing: 0.64px;
 }
 
 .discount__slider-price {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   letter-spacing: 1.2px;
   line-height: 46px;
 }
 
 .discount__slider-comment {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   letter-spacing: 0.48px;
   line-height: 26px;
@@ -573,7 +580,7 @@
 
 .blog__header,
 .about__header {
-  font-family: 'Monserrat Bold', sans-serif;
+  font-family: 'Montserrat Bold', sans-serif;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.72px;
@@ -583,7 +590,7 @@
 
 .blog__descr-title,
 .about__descr-title {
-  font-family: 'Monserrat Bold', sans-serif;
+  font-family: 'Montserrat Bold', sans-serif;
   font-size: 36px;
   letter-spacing: 1.44px;
   line-height: 48px;
@@ -591,7 +598,7 @@
 
 .blog__descr-text,
 .about__descr-text {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   letter-spacing: 0.64px;
   line-height: 24px;
@@ -608,7 +615,7 @@
 }
 
 .blog__list-item-time {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   letter-spacing: 0.48px;
   line-height: 26px;
@@ -616,7 +623,7 @@
 }
 
 .blog__list-item-header {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: normal;
   letter-spacing: 1.2px;
@@ -624,7 +631,7 @@
 }
 
 .blog__list-item-text {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   letter-spacing: 0.64px;
 }
@@ -642,9 +649,9 @@
   overflow: hidden;
 }
 
-.about__image-picture-item {
+/*.about__image-picture-item {
   max-width: 100%;
-}
+}*/
 
 .page-footer {margin: 30px auto;}
 
@@ -676,6 +683,11 @@
   margin: 0 15px;
 }
 
+.page-footer__socials-vk,
+.page-footer__socials-fb {
+  margin-bottom: 2px;
+}
+
 .page-footer__socials-vk {
   background-image: url(../img/page-footer__socials-vk.svg);
   width: 42px;
@@ -695,7 +707,7 @@
 }
 
 .page-footer__copyright {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.8px;
@@ -725,11 +737,11 @@
    }
 
    .collection-toggle__item-prev:hover {
-    background-image: url(../img/toggle-prev-yellow.svg);
+    background-image: url(../img/toggle-prev-yellow.png);
    }
 
    .collection-toggle__item-next:hover {
-    background-image: url(../img/toggle-next-yellow.svg);
+    background-image: url(../img/toggle-next-yellow.png);
    }
 
    .page-header {
@@ -935,6 +947,7 @@
 
    .promo__collection-btn-item {
     font-size: 20px;
+    font-weight: 500;
     letter-spacing: 0.64px;
     flex-grow: 0;
    }
@@ -992,12 +1005,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 3%;
     margin: 0;
    }
 
    .catalog-man,
    .catalog-women {
+    background-color: #f7f8fa;
     order: 0;
     width: 66.6%;
    }
@@ -1046,19 +1059,24 @@
     letter-spacing: 0.8px;
    }
 
-   .catalog-man__collection-btn-item,
+   .catalog-man__collection-btn-text,
    .catalog-road-bag__link,
    .catalog-accessories__link,
-   .catalog-women__collection-btn-item {
+   .catalog-women__collection-btn-text {
     font-family: 'Montserrat Bold', sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 0.8px;
    }
 
    .catalog-man__collection-btn {
+    background-color: #f7f8fa;
     padding: 10% 0 60%;
     margin-top: 0;
+   }
+
+   .catalog-man__collection-btn-item {
+    background-color: #f7f8fa;
    }
 
    .catalog-man__collection-btn-arrow {
@@ -1121,8 +1139,13 @@
   }
 
   .catalog-women__collection-btn {
+    background-color: #f7f8fa;
     padding: 10% 0% 30%;
     margin: 0;
+  }
+
+  .catalog-women__collection-btn-item {
+    background-color: #f7f8fa;
   }
 
   .discount {
