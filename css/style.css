@@ -1372,6 +1372,11 @@
     margin: 0 30px 0 0;
   }
 
+  .page-footer__socials-vk,
+  .page-footer__socials-fb {
+    margin: 0 30px 2px 0;
+  }
+
   .page-footer__catalog,
   .page-footer__about,
   .page-footer__contacts {
