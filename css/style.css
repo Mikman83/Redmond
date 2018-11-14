@@ -219,14 +219,14 @@
 
 .collection-toggle__item {
   display: inline-block;
-  width: 25px;
+  width: 30px;
   height: 14px;
   margin: 0 10px;
-  border-bottom: 2px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .collection-toggle__item-active {
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .promo__image {
@@ -575,7 +575,7 @@
 }
 
 .blog {
-  padding: 60px 8%;
+  padding: 40px 8%;
 }
 
 .blog__header,
@@ -585,6 +585,7 @@
   font-weight: bold;
   letter-spacing: 0.72px;
   line-height: 30px;
+  margin: 10px 0;
   text-transform: uppercase;
 }
 
@@ -594,6 +595,7 @@
   font-size: 36px;
   letter-spacing: 1.44px;
   line-height: 48px;
+  margin: 0;
 }
 
 .blog__descr-text,
@@ -628,12 +630,14 @@
   font-weight: normal;
   letter-spacing: 1.2px;
   line-height: 40px;
+  margin: 0;
 }
 
 .blog__list-item-text {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   letter-spacing: 0.64px;
+  margin-top: 8px;
 }
 
 .about-wrap {
