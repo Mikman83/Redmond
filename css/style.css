@@ -431,10 +431,6 @@
   text-align: center;
 }
 
-.discount__catalog {
-  padding: 0 15%;
-}
-
 .discount__catalog-btn {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -538,7 +534,7 @@
   position: absolute;
   background-color: #c1b6a5;
   border: none;
-  bottom: 0;
+  bottom: 4px;
   left: 0;
   width: 100%;
   height: 50px;
@@ -673,6 +669,7 @@
 
 .page-footer__logo {
   display: block;
+  width: 45%;
   margin: 0 auto;
 }
 
@@ -720,7 +717,7 @@
 
 
 
-@media (min-width: 641px) {
+@media (min-width: 1000px) {
 
    .page-header__logo,
    .page-header__burger {
@@ -880,6 +877,10 @@
    .block1-desct {
     display: flex;
     justify-content: space-between;
+   }
+
+   .promo__logo {
+    width: 13.5%;
    }
 
    .promo__wrap {
@@ -1376,16 +1377,20 @@
   }
 
   .page-footer-item2 {
-    padding-left: 80px;
+    padding-left: 5%;
   }
 
   .page-footer-item3,
   .page-footer-item4 {
-    padding-left: 160px;
+    padding-left: 10%;
   }
 
-  .page-footer__logo img {
-    width: 50%;
+  .page-footer__logo {
+    margin: 0;
+  }
+
+  .page-footer__logo-img {
+    width: 100%;
     margin: 0;
   }
 
